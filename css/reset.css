@@ -1,0 +1,243 @@
+﻿
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:;
+}
+html{
+    font-size:100%;
+}
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*
+Copyright (c) 2009, Shawphy(shawphy.com). All rights reserved.
+http://shawphy.com/2009/03/my-own-reset-css.html
+Based on YUI http://developer.yahoo.com/yui/reset/ 
+and Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html 
+Licensed under the BSD License:
+http://creativecommons.org/licenses/BSD/
+version: 1.1 | 20090303
+*/
+
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+fieldset, img {
+	border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+address, caption, cite, code, dfn,
+em, strong, th, var, optgroup {
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+input, button, textarea,
+select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+code, kbd, samp, tt {
+	font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+	*font-size: 100%;
+}
+/*body {
+	line-height: 1.5;
+}*/
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+sup, sub {
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {
+	text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/**/
+.dn{ display:none;} 
+.db{ display:block;} .di{ display:inline;} .dib{ display:inline-block;}
+.h14{ height:14px;} .h16{ height:16px} .h18{ height:18px;} .h20{ height:20px;} .h22{ height:22px;} .h24{ height:24px;}
+.lh14{ line-height:14px;} .lh16{ line-height:16px;} .lh18{ line-height:18px;} .lh20{ line-height:20px;} .lh22{ line-height:22px;} .lh24{ line-height:24px;}
+
+.f0{ font-size:0;} .f12{ font-size:12px;} .f14{ font-size:14px;} .f16{ font-size:16px;} .f18{ font-size:18px;} .f20{ font-size:20px;} .f22{ font-size:22px;} .f24{ font-size:24px;}
+
+.fa{ font-family:Arial;} .ft{ font-family:Tahoma;} .fv{ font-family:Verdana;} .fs{ font-family:瀹嬩綋;} .fw{ font-family:寰蒋闆呴粦;}
+
+.fwb{ font-weight:bold;} .fsi{ font-style:italic;} .fwsn{ font-weight:normal; font-style:normal;}
+
+.tc{ text-align:center;} .tl{ text-align:left;} .tr{ text-align:right;}
+
+.tdl{ text-decoration:underline;} .tdn,tdn:hover,a.tdl:hover{ text-decoration:none;}
+.ls0{ letter-spacing:0;} .ls1{ letter-spacing:1px;}
+.warp{ white-space:nowrap;}
+
+.vm{ vertical-align:middle;} .vtb{ vertical-align:text-bottom;} .vb{ vertical-align:bottom;} .vt{ vertical-align:top;} .v-2{ vertical-align:-2px;/*ie7鐨刡ug*/}
+
+.fll{ float:left;} .flr{ float:right;}
+.cl{ clear:both;height:10px;}
+.rel{ position:relative;} .abs{ position:absolute;}
+.zx1{ z-index:1;} .zx2{ z-index:2;}
+.poi{ cursor:pointer;} .def{ cursor:default;}
+.ovh{ overflow:hidden;} .ovs{ overflow:scroll;}
+.vih{ visibility:hidden;} .viv{ visibility:visible;}
+.z{ *zoom:1;}
+
+
+.auto{ margin-left:auto; margin-right:auto;}
+.clearfix{*zoom:1;}
+.clearfix:after{ display:block; content:"clear float"; height:0px; clear:both; overflow:hidden; visibility:hidden;}
+.ti24{text-indent:24px;}
+.textdot{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 100%;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	width:0;
+height:0;
+clear:both;
+}
